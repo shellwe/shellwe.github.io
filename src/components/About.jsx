@@ -1,5 +1,6 @@
+import { Link } from "react-router-dom";
 
-const AboutMe = () => {
+const About = () => {
   return (
     <section id="aboutMe">
       <div className="left-side">
@@ -7,6 +8,7 @@ const AboutMe = () => {
         <h1>HI THERE!</h1>
         <p>My name is <em>Shawn Hellwege</em><br />and I <em>LOVE</em> making
           websites.</p>
+          <p>Please check out <Link to="/resume">my resume</Link> to see my qualifications.</p>
 
         </div>
       </div>
@@ -27,4 +29,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default About;

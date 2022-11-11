@@ -5,7 +5,7 @@ const Presentation = (props) => {
         <div>
             <h2>{props.presentation}</h2>
             <h3>{props.organization}</h3>
-            <p><strong>{props.year}</strong></p>
+            <p><strong>Presented in {props.year}</strong></p>
             <p>{props.children}</p>
         </div>
     )

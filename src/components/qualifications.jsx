@@ -6,8 +6,8 @@ import qualificationsArray  from './qualificationsList.json';
 
 
 // const AllCompanies = [
-//     { "CompanyName": "UNL", "StartYear": 2019, "EndYear": 0, "Order": 1 },
-//     { "CompanyName": "Assurity", "StartYear": 2014, "EndYear": 2019, "Order": 2 },
+//     { "CompanyName": "UNL", "JobTitle": "Supervisor of Awesome", "StartYear": 2019, "EndYear": 0, "Order": 1 },
+//     { "CompanyName": "Assurity", "JobTitle": "Rap God", "StartYear": 2014, "EndYear": 2019, "Order": 2 },
 //     ];
   
 

@@ -1,13 +1,19 @@
 #connect {
     z-index: 5;
-    background-color: rgb(240, 240, 240);
 
     a {
         padding: 10px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
 
         img {
             width: 24px;
             height: auto;
+        }
+        p{
+            text-decoration: none;
+
         }
     }
 }
@@ -18,23 +24,56 @@
         flex-flow: column nowrap;
         position: fixed;
         right: 0px;
-        bottom: 100px;
+        bottom: 300px;
+        border-top: var(--font-color) outset thin;
+        border-left: var(--font-color) outset thin;
+        border-bottom: var(--font-color) outset thin;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        background-color: rgba(255, 255, 255, 0.75);
+
     
+        p {
+            display: inline-block;
+            max-width: 0;
+            overflow: hidden;
+            transition: max-width .5s;
+            margin-left: .5rem;
+            font-weight: bold;
+        }
+
+        &:hover {
+            p {
+                max-width: 200px;
+                transition: max-width 1s;
+            }
+        }
     }
 }
 
 @media only screen and (max-width: 767px) {
     #connect {
         display: flex;
-        flex-flow: row nowrap; 
+        flex-flow: row nowrap;
         align-content: stretch;
         align-items: stretch;
-        a{
+
+        a {
             display: flex;
             justify-content: center;
             align-content: center;
-            flex:1;
-            &:hover{
+            flex: 1;
+            padding:1rem;
+            img{
+                width: 100%;
+                max-width: 50%;    
+            }
+
+            p{
+                display: none;
+            }
+
+            &:hover {
                 background-color: #B6D2DB;
             }
         }

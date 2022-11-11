@@ -6,7 +6,7 @@ const Sites = (props) => {
   return (
     <>
       <Site
-        title={"CoCreate - University of Nebrsaka–Lincoln"}
+        title={"CoCreate - University of Nebraska–Lincoln"}
         shortTItle={'CoCreate'}
         phone={"iphone-left-cocreate"}
         mac={"imac-right-cocreate"}
@@ -34,7 +34,7 @@ const Sites = (props) => {
           more info on each page.</p>
       </Site>
       <Site
-        title={"Why Nebraska - University of Nebrsaka–Lincoln"}
+        title={"Why Nebraska - University of Nebraska–Lincoln"}
         shortTItle={'WhyNebraska'}
         phone={"iphone-right-whyneb"}
         mac={"macbook-left-whyneb"}
