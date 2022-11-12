@@ -6,13 +6,12 @@ const Sites = (props) => {
   return (
     <>
       <Site
-        title={"CoCreate - University of Nebraska–Lincoln"}
+        title={"CoCreate"}
         shortTItle={'CoCreate'}
         phone={"iphone-left-cocreate"}
         mac={"imac-right-cocreate"}
-        description={"CoCreate was an interesting challenge because we needed to create a magazine that was styling and appealing enough to interest students, fit the University's needs, and be versatile enough to permit expanding features \n\n This site was previously handcoded so any and all changes/additions had to be done with a web developer. We wanted to change that to allow anyone to be able to make changes. We developed the templates for each of the pages manually and then we used Drupal structures to craft the different pages. \n\n The challenges with this is we choose to work with another department - University Communications. We had to communicate wheh each of us are making changes and set up a GIT repository to manage the SCSS changes between us. We collaborated to collect ideas on how to best future proof the site. \n\n The final product became a very appealing magazine that is easy to add new articles and anyone with permissions could easily make changes."}
-      >
-        <p><strong>Client:</strong> University of Nebraska–Lincoln</p>
+        description={[<ul><li>Utilized Lighthouse and internal audit tools to increase site performance and validation</li><li>Utilized Drupal to increase the user base who can edit content</li><li>Broke down a complex site to create managable and testable segments</li><li>Site needed to be versatile to support different content layouts</li><li>Had to built the site in a way that would allow expansion and new features without breaking existing content</li><li>Worked with University Communications (UComm) to improve brand expression</li><ll>Set up GIt repository so UComm could collaborate on SCSS and JS changes with our department seamlessly</ll></ul>]}>
+        <h2><strong>Client:</strong> University of Nebraska–Lincoln</h2>
         <p><strong>Site:</strong> <a href="https://cocreate.unl.edu/" target="_blank" rel="noreferrer">https://cocreate.unl.edu/</a></p>
         <strong>Technologies used:</strong><span className="products">
           <Product logoFile={'sass-icon'} logoText={'SASS'}></Product>
@@ -27,20 +26,15 @@ const Sites = (props) => {
           <Product logoFile={'adobe-photoshop-icon'} logoText={'Adobe Photoshop'}></Product>
           <Product logoFile={'adobe-xd-icon'} logoText={'Adobe XD'}></Product>
           </span>
-        <p><strong>Audience:</strong> CoCreate is a student magazine that focuses on the
-          achievements of noteworthy students At the University fo Nebraska. It is
-          designed to make the stuent the hero of their own story and show how you
-          can have your own story at the University of Nebraska. There is a request for
-          more info on each page.</p>
+        <p><strong>Audience and Purpose:</strong> CoCreate is a student magazine that focuses on the achievements of noteworthy students at the University of Nebraska. It is designed to make the student the hero of their own story and show how you can have your own story at the University of Nebraska. There is a request for more info on each page.</p>
       </Site>
       <Site
-        title={"Why Nebraska - University of Nebraska–Lincoln"}
+        title={"Why Nebraska"}
         shortTItle={'WhyNebraska'}
         phone={"iphone-right-whyneb"}
         mac={"macbook-left-whyneb"}
-        description={'I really enjoyed working on this site because it presented me with a great deal of challenges to overcome. With the "Why Nebraska" main page I was able to really take advantage of CSS Grid by making more complicated layouts that layer on top of each other. I also was allowed to explore using animation but not letting it affect accessibility. \n\n With the Career, Social, and Academic pages I was challenged with making a two column layout where just the left side scrolls and the right side rotates out pictures and descriptions as the user scrolls to different sections. The layout also presented a challenge by switching from two columns down to one becauu we needed as any as 4 media queries depending on the complexity \n\n From this Site I learned the importance breaking down complex Sites to managable and testable segments. I learned to work with talented designers to combine their expertise in design and my expertise in web and UX principles to build a quality website'}
-      >
-        <p><strong>Client:</strong> University of Nebraska–Lincoln</p>
+        description={[<ul><li>Utilize creative uses for CSS Grid</li><li>Triggered animation and other events at certian scroll heights</li><li>Explored animation and how it affects accessibility</li><li>2-column layout for subpages was incredibly complex and required careful coding practices to prevent it from breaking</li><li>Had to manage multiple viewports and make sure content lays out well</li><li>Colaborated with designer to improve the design.</li><li>Reduced page load size by utilizing picture tag to have multiple images in different sizes/formats</li></ul>]}>
+        <h2><strong>Client:</strong> University of Nebraska–Lincoln</h2>
         <p><strong>Site:</strong> <a href="https://admissions.unl.edu/why-nebraska/" target="_blank" rel="noreferrer">https://admissions.unl.edu/why-nebraska/</a></p>
         <strong>Technologies used:</strong><span className="products">
         <Product logoFile={'sass-icon'} logoText={'SASS'}></Product>
@@ -56,12 +50,7 @@ const Sites = (props) => {
           <Product logoFile={'adobe-xd-icon'} logoText={'Adobe XD'}></Product>
           <Product logoFile={'visual-studio-code-icon'} logoText={'Visual Studio Professional'}></Product>
           </span>
-        <p><strong>Audience:</strong> High school students determining if college was right for them.
-          Overview: We used nationally sourced data to break down most students in
-          3 categories; career focused, grad school focused, and social focused. We
-          used this to make 3 similar sites to cater to each category. We also pulled
-          from social media and our Cocreate Newsletter to show what active
-          students are doing.</p>
+        <p><strong>Audience and Purpose:</strong> High school students determining if college was right for them. Overview: We used nationally sourced data to break down most students in 3 categories: career focused, grad school focused, and social focused. We used this to make 3 similar sites to cater to each category. We also pulled from social media and our Cocreate Newsletter to show what active students are doing.</p>
       </Site>
     </>
   );

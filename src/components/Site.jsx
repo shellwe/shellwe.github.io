@@ -8,7 +8,10 @@ const Site = (props) => {
                     <h1>{props.title}</h1>
                     {props.children}
                 </div>
-                <p className='description'>{props.description}</p>
+                <div className='description'>
+                    <h2>Challenges to Overcome:</h2>
+                    {props.description}
+                    </div>
                 <picture className='mac-picture'>
                     <img src={'./images/' + props.mac + '@2x.png'} alt={'preview of ' + props.title + ' on a mac'} />
                 </picture>
