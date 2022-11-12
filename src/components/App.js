@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import Header from "./Header"
-// import Qualifications from "./qualifications"
 import Products from "./Products"
 import Sites from "./Sites"
 import Presentations from "./Presentations"

@@ -57,7 +57,7 @@
         flex-flow: row nowrap;
         align-content: stretch;
         align-items: stretch;
-
+        background-color: var(--link-color);
         a {
             display: flex;
             justify-content: center;
@@ -74,7 +74,7 @@
             }
 
             &:hover {
-                background-color: #B6D2DB;
+                background-color: var(--header-color);
             }
         }
     }
