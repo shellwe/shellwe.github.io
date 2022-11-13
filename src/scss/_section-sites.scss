@@ -12,35 +12,43 @@
             white-space: pre-line
         }
 
-        .products {
-            display: inline-flex;
-            flex-flow: row nowrap;
-            align-items: center;
+        .specs {
+            strong {
+                margin-right: 15px;
+            }
 
-            figure {
-                display: flex;
-                flex-flow: row nowrap;
+            .products {
+                display: inline-flex;
+                flex-flow: row wrap;
                 align-items: center;
-                margin: 0 15px;
 
-                img {
-                    width: auto;
-                    height: 20px;
-                    max-width: 50px;
-                }
+                figure {
+                    display: flex;
+                    flex-flow: row nowrap;
+                    align-items: center;
+                    margin: 0 15px;
+                    margin-left: 0;
 
-                figcaption {
-                    Font-Family: 'Roboto Condensed', Sans-Serif;
-                    padding-left: .5rem;
+                    img {
+                        width: auto;
+                        height: 20px;
+                        max-width: 50px;
+                    }
 
+                    figcaption {
+                        Font-Family: 'Roboto Condensed', Sans-Serif;
+                        padding-left: .5rem;
+
+                    }
                 }
             }
+
         }
     }
 
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 1025px) {
     [id^=site] {
 
         .container {
@@ -97,38 +105,44 @@
     }
 }
 
-    @media only screen and (max-width: 767px) {
-        [id^=site] {
-            .container {
-                display: grid;
-                grid-template-columns: 1fr;
-                grid-template-rows: 3fr;
-                padding: 5%;
+@media only screen and (max-width: 1024px) {
+    [id^=site] {
+        .container {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 3fr;
+            padding: 5%;
 
-                .specs {
-                    grid-column: 1/2;
-                    grid-row: 1/2;
-                }
-
-                .iphone-picture {
-                    display:none !important;
-                }
-
-                .mac-picture {
-                    grid-column: 1/2;
-                    grid-row: 2/3;
-                    margin: 1rem 0;
-                }
-
-                .description {
-                    grid-column: 1/2;
-                    grid-row: 3/4;
-                }
-
-                .products {
-                    align-content: flex-start;
-                }
-        
+            .specs {
+                grid-column: 1/2;
+                grid-row: 1/2;
             }
+
+            .iphone-picture {
+                display: none !important;
+            }
+
+            .mac-picture {
+                grid-column: 1/2;
+                grid-row: 2/3;
+                max-width: 500px;
+                align-self: center;
+                justify-self: center;
+            }
+
+            .description {
+                grid-column: 1/2;
+                grid-row: 3/4;
+            }
+
+            .products {
+                align-content: flex-start;
+
+                figure {
+                    margin-top: .5rem;
+                }
+            }
+
         }
     }
+}
