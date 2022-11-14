@@ -5,10 +5,11 @@ const About = () => {
     <section id="aboutMe">
       <div className="left-side">
         <div className="greeting">
-        <h1>HI THERE!</h1>
-        <p>My name is <em>Shawn Hellwege</em><br />and I <em>LOVE</em> making
-          websites.</p>
-          <p>Please check out <Link to="/resume">my resume</Link> to see my qualifications.</p>
+          <h1>HI THERE!</h1>
+          <p>My name is <em>Shawn Hellwege</em><br />and I <em>LOVE</em> making
+            websites.</p>
+          {/* <p>Please check out <Link to="/resume">my resume</Link> to see my qualifications.</p> */}
+          <p>Please check out <a href="./assets/Shawn Hellwege - resume.pdf" target="_blank">my résumé</a> to see my qualifications.</p>
 
         </div>
       </div>

@@ -12,7 +12,8 @@
                 flex: 1 0 300px;
                 gap: 100px;
                 h2{
-                    min-height: 58px;
+                    min-height: 60;
+                    border-bottom: medium inset var(--bg-color);;
                 }
             }
 

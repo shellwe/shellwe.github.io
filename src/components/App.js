@@ -11,7 +11,6 @@ import Footer from "./Footer"
 export function App() {
   return (
     <>
-      {/* <Header headerText={'Hello World'} subHeaderText = {'This is the main page Header'} /> */}
       <About />
       <ConnectWithMe />
       <Products />
