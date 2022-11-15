@@ -16,11 +16,20 @@
 //   }
 
 //Cool Blues  
-  :root {
-    --font-color: #003B46;
-    --header-color: #07575B;
-    --bg-color: #C4DFE6;
-    --link-color: #39656A; //formerly #66A5AD
-  }
+:root {
+  --font-color: #003B46;
+  --header-color: #07575B;
+  --bg-color: #C4DFE6;
+  --link-color: #39656A; //formerly #66A5AD
+}
 
-  // var(--font-color);
+// var(--font-color);
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --font-color: #C4DFE6;
+    --header-color: #0F9299;
+    --bg-color: #003B46;
+    --link-color: #67A8AD; //formerly #66A5AD
+  }
+}

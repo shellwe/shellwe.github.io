@@ -1,31 +1,34 @@
-#products{
+#products {
 
     h1 {
         text-align: center;
     }
-    .product-group{
-        margin:auto;
+
+    .product-group {
+        margin: auto;
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
-        background-color: rgba(255,255,255,0.5);
-        margin-bottom:25px;
+        background-color: rgba(255, 255, 255, 0.5);
+        margin-bottom: 25px;
         border-radius: 25px;
         padding: 15px;
 
-        h2 {
-        }
-        figure{
+        h2 {}
+
+        figure {
             display: flex;
             flex-flow: row nowrap;
             align-items: center;
-            margin:16px;
-               img{
+            margin: 16px;
+
+            img {
                 width: auto;
                 height: 44px;
                 max-width: 50px;
-                
+
             }
+
             figcaption {
                 Font-Family: 'Roboto Condensed', Sans-Serif;
                 padding-left: 8px;
@@ -36,9 +39,19 @@
 }
 
 @media only screen and (max-width: 767px) {
-    #products{
+    #products {
         figcaption {
-            display:none;
-        }   
+            display: none;
+        }
     }
+}
+
+@media (prefers-color-scheme: dark) {
+    #products {
+        .product-group {
+            background-color: unset;
+            border: outset medium var(--link-color);
+        }
+
     }
+}
