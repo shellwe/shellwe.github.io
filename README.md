@@ -1,14 +1,13 @@
-# Notes
-
-https://uxwing.com/sass-icon/
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# My portfolio page
+This is the the read me for code to my portfolio page. It is an extension of my resume to show of some of my work and skills.
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm run deploy`
+
+Deploys the site to Github.
 
 ### `npm start`
 
