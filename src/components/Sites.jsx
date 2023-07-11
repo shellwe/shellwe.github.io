@@ -10,7 +10,7 @@ const Sites = (props) => {
         shortTItle={'CoCreate'}
         phone={"iphone-left-cocreate"}
         mac={"imac-right-cocreate"}
-        description={<ul><li>Utilized Lighthouse and internal audit tools to increase site performance and validation</li><li>Utilized Drupal to increase the user base who can edit content</li><li>Broke down a complex site to create managable and testable segments</li><li>Site needed to be versatile to support different content layouts</li><li>Had to built the site in a way that would allow expansion and new features without breaking existing content</li><li>Worked with University Communications (UComm) to improve brand expression</li><li>Set up GIt repository so UComm could collaborate on SCSS and JS changes with our department seamlessly</li></ul>}>
+        description={<ul><li>Utilized Lighthouse and internal audit tools to increase site performance and validation</li><li>Utilized Drupal to increase the user base who can edit content</li><li>Broke down a complex site to create managable and testable segments</li><li>Site needed to be versatile to support different content layouts</li><li>Had to build the site in a way that would allow expansion and new features without breaking existing content</li><li>Worked with University Communications (UComm) to improve brand expression</li><li>Set up GIt repository so UComm could collaborate on SCSS and JS changes with our department seamlessly</li></ul>}>
         <h2><strong>Client:</strong> University of Nebraska–Lincoln</h2>
         <p><strong>Site:</strong> <a href="https://cocreate.unl.edu/" target="_blank" rel="noreferrer">https://cocreate.unl.edu/</a></p>
         <strong>Technologies used:</strong><span className="products">

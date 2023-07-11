@@ -9,7 +9,7 @@ const About = () => {
           <p>My name is <em>Shawn Hellwege</em><br />and I <em>LOVE</em> making
             websites.</p>
           {/* <p>Please check out <Link to="/resume">my resume</Link> to see my qualifications.</p> */}
-          <p>Please check out <a href="./assets/Shawn Hellwege - resume.pdf" target="_blank">my résumé</a> to see my qualifications.</p>
+          <p>Please check out <a href="./assets/Shawn_Hellwege_resume.pdf" target="_blank">my résumé</a> to see my qualifications.</p>
 
         </div>
       </div>

@@ -5,7 +5,7 @@ const Site = (props) => {
         <section id={'site' + props.shortTItle}>
             <div className='container'>
                 <div className='specs'>
-                    <h1>{props.title}</h1>
+                    <h1>Project: {props.title}</h1>
                     {props.children}
                 </div>
                 <div className='description'>
