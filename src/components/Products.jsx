@@ -21,6 +21,7 @@ const Products = (props) => {
                     <Product logoFile={'sass-icon'} logoText={'SASS'}></Product>
                     <Product logoFile={'visual-studio-code-icon'} logoText={'Visual Studio'}></Product>
                     <Product logoFile={'wordpress-icon'} logoText={'Wordpress'}></Product>
+                    <Product logoFile={'storybook-icon'} logoText={'Storybook'}></Product>
                 </div>
                 <div className='product-group'>
                     <h2>Design</h2>
@@ -30,6 +31,7 @@ const Products = (props) => {
                     <Product logoFile={'adobe-xd-icon'} logoText={'Adobe XD'}></Product>
                     <Product logoFile={'figma-icon'} logoText={'Figma'}></Product>
                     <Product logoFile={'sketch-icon'} logoText={'Sketch'}></Product>
+                    <Product logoFile={'chromatic-icon'} logoText={'Chromatic'}></Product>
                 </div>
                 <div className='product-group'>
                     <h2>Administration</h2>
@@ -46,6 +48,7 @@ const Products = (props) => {
             <div>
                 <h1>What I am learning</h1>
                 <div className='product-group'>
+                    <Product logoFile={'nextjs-icon'} logoText={'NextJS'}></Product>
                     <Product logoFile={'adobe-animate-icon'} logoText={'Adobe Animate'}></Product>
                     <Product logoFile={'angular-icon'} logoText={'AngularJS'}></Product>
                     <Product logoFile={'greensock-icon'} logoText={'Greensock (GSAP)'}></Product>
