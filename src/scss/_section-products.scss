@@ -51,6 +51,11 @@
         .product-group {
             background-color: unset;
             border: outset medium var(--link-color);
+            img {
+                &.inverted {
+                    filter: invert(1);
+                }
+            }
         }
 
     }

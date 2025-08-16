@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -14,8 +14,8 @@ const About = () => {
       </div>
       <div className="right-side">
         <ul className="stats">
-          <li>15 years web design experience</li>
-          <li>8 years back-end web development experience</li>
+          <li>25 years web design experience</li>
+          <li>11 years back-end web development experience</li>
           <li>Avid Learner</li>
           <li>Aspiring UX/UI Desinger</li>
         </ul>
